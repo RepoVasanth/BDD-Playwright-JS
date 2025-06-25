@@ -1,0 +1,20 @@
+{
+  "name": "playwright-bdd-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf reports",
+    "test": "npm run clean && cucumber-js && node report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.9",
+    "cucumber-html-reporter": "^7.2.0",
+    "rimraf": "^6.0.1"
+  }
+}

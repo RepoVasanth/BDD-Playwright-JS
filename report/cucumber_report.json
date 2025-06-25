@@ -1,0 +1,71 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "demoblaze-testing;user-should-be-able-to-visit-the-home-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User should be able to visit the home page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 424986800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Navigate to the homepage",
+            "match": {
+              "location": "src\\test\\steps\\login.spec.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2506492699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Perform Login steps",
+            "match": {
+              "location": "src\\test\\steps\\login.spec.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2164271600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 345406700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "demoblaze-testing",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Demoblaze Testing",
+    "tags": [],
+    "uri": "src\\test\\features\\login.feature"
+  }
+]
